@@ -1,0 +1,10 @@
+[External]
+"SteamMatchMakingServers"=steamserver.dll
+SteamMatchMakingServers=steamserver.dll
+"SteamMatchMaking"=steamserver.dll
+[Emulator]
+Language = English
+SteamClient = True
+SteamUser = SteamPlayer
+[steamclient]
+PlayerName = Player

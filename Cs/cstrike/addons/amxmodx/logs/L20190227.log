@@ -1,0 +1,30 @@
+L 02/27/2019 - 00:06:51: -------- Mapchange to zm_fdust2x2 --------
+L 02/27/2019 - 00:07:26: [admin.amxx] Login: "naz<11><STEAM_0:0:719856827><>" became an admin (account "naz") (access "abcdefghijklmnopqrstu") (address "192.168.1.2")
+L 02/27/2019 - 00:10:16: [admincmd.amxx] Kick: "naz<11><STEAM_0:0:719856827><>" kick "naz<11><STEAM_0:0:719856827><>" (reason "")
+L 02/27/2019 - 00:10:23: [admin.amxx] Login: "naz<12><STEAM_0:0:719856827><>" became an admin (account "naz") (access "abcdefghijklmnopqrstu") (address "192.168.1.2")
+L 02/27/2019 - 00:24:53: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 02/27/2019 - 00:25:08: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be cs_assault
+L 02/27/2019 - 00:33:04: [admin.amxx] Login: "naz<13><STEAM_0:0:719856827><>" became an admin (account "naz") (access "abcdefghijklmnopqrstu") (address "192.168.1.2")
+L 02/27/2019 - 00:34:16: [admin.amxx] Login: "naz<14><STEAM_0:0:719856827><>" became an admin (account "naz") (access "abcdefghijklmnopqrstu") (address "192.168.1.2")
+L 02/27/2019 - 00:34:32: -------- Mapchange to cs_assault --------
+L 02/27/2019 - 00:34:33: [admin.amxx] Login: "naz<14><STEAM_0:0:719856827><>" became an admin (account "naz") (access "abcdefghijklmnopqrstu") (address "192.168.1.2")
+L 02/27/2019 - 00:37:26: [mapsmenu.amxx] Cmd: "naz<14><STEAM_0:0:719856827><>" changelevel "de_dust"
+L 02/27/2019 - 00:37:29: -------- Mapchange to de_dust --------
+L 02/27/2019 - 00:37:29: [admin.amxx] Login: "naz<14><STEAM_0:0:719856827><>" became an admin (account "naz") (access "abcdefghijklmnopqrstu") (address "192.168.1.2")
+L 02/27/2019 - 00:44:00: -------- Mapchange to de_dust --------
+L 02/27/2019 - 00:44:01: [admin.amxx] Login: "naz<14><STEAM_0:0:719856827><>" became an admin (account "naz") (access "abcdefghijklmnopqrstu") (address "192.168.1.2")
+L 02/27/2019 - 00:44:56: [mapsmenu.amxx] Cmd: "naz<14><STEAM_0:0:719856827><>" changelevel "de_dust2_2x2"
+L 02/27/2019 - 00:44:59: -------- Mapchange to de_dust2_2x2 --------
+L 02/27/2019 - 00:44:59: [admin.amxx] Login: "naz<14><STEAM_0:0:719856827><>" became an admin (account "naz") (access "abcdefghijklmnopqrstu") (address "192.168.1.2")
+L 02/27/2019 - 01:08:15: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 02/27/2019 - 01:08:44: -------- Mapchange to de_dust2 --------
+L 02/27/2019 - 01:09:30: -------- Mapchange to de_dust2_2x2 --------
+L 02/27/2019 - 01:14:55: -------- Mapchange to de_dust2 --------
+L 02/27/2019 - 01:32:55: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 02/27/2019 - 01:33:10: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be de_aztec
+L 02/27/2019 - 17:55:42: -------- Mapchange to de_dust2 --------
+L 02/27/2019 - 17:57:05: [admin.amxx] Login: "naz<1><STEAM_0:0:719856827><>" became an admin (account "naz") (access "abcdefghijklmnopqrstu") (address "192.168.1.2")
+L 02/27/2019 - 17:57:42: [mapsmenu.amxx] Cmd: "naz<1><STEAM_0:0:719856827><>" changelevel "de_dust2_2x2"
+L 02/27/2019 - 17:57:44: -------- Mapchange to de_dust2_2x2 --------
+L 02/27/2019 - 17:57:45: [admin.amxx] Login: "naz<1><STEAM_0:0:719856827><>" became an admin (account "naz") (access "abcdefghijklmnopqrstu") (address "192.168.1.2")
+L 02/27/2019 - 18:20:19: [admin.amxx] Login: "naz<5><STEAM_0:0:719856827><>" became an admin (account "naz") (access "abcdefghijklmnopqrstu") (address "192.168.1.2")

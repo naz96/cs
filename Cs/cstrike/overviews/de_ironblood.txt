@@ -1,0 +1,16 @@
+// map "de_ironblood (v1.0)" by [POD]ILL bot (0) (R)(C) (07.04.09)usa (04.07.09)rus
+// map "de_ironblood (v1.1)" by [POD]ILL bot (0) (R)(C) (10.24.09)usa (24.10.09)rus
+// overview description file for de_ironblood.bsp
+
+global 
+{
+	ZOOM	1.09
+	ORIGIN	-456	-536	-1153
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/de_ironblood.bmp"
+	HEIGHT	-1153
+}

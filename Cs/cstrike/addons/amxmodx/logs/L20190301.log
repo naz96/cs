@@ -1,0 +1,12 @@
+L 03/01/2019 - 22:28:01: -------- Mapchange to de_dust2 --------
+L 03/01/2019 - 22:28:15: -------- Mapchange to cs_italy --------
+L 03/01/2019 - 22:49:36: [admin.amxx] Login: "naz<2><STEAM_0:0:719856827><>" became an admin (account "naz") (access "abcdefghijklmnopqrstu") (address "192.168.1.1")
+L 03/01/2019 - 23:01:02: [mapsmenu.amxx] Cmd: "naz<2><STEAM_0:0:719856827><>" changelevel "de_dust2_2x2"
+L 03/01/2019 - 23:01:04: -------- Mapchange to de_dust2_2x2 --------
+L 03/01/2019 - 23:01:05: [admin.amxx] Login: "naz<2><STEAM_0:0:719856827><>" became an admin (account "naz") (access "abcdefghijklmnopqrstu") (address "192.168.1.1")
+L 03/01/2019 - 23:07:23: [admincmd.amxx] Kick: "naz<2><STEAM_0:0:719856827><>" kick "D<3><STEAM_0:0:1554964731><>" (reason "")
+L 03/01/2019 - 23:29:34: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 03/01/2019 - 23:29:49: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be de_dust
+L 03/01/2019 - 23:37:36: -------- Mapchange to de_dust --------
+L 03/01/2019 - 23:55:36: [mapchooser.amxx] Vote: Voting for the nextmap started
+L 03/01/2019 - 23:55:51: [mapchooser.amxx] Vote: Voting for the nextmap finished. The nextmap will be de_prodigy

@@ -1,0 +1,193 @@
+﻿"1" "Оставшееся время"		"timeleft"
+"2" "Игра"
+{
+	"1" "Прицел"
+	{
+		"1" "Размер"
+		{
+			"1" "Авто"		"cl_crosshair_size auto"
+			"2" "Маленький"	"cl_crosshair_size small"
+			"3" "Средний"	"cl_crosshair_size medium"
+			"4" "Большой"	"cl_crosshair_size large"
+		}
+		"2" "Цвет"              
+		{
+			"1" "Красный"         "adjust_crosshair 6"
+			"2" "Бедый"      "cl_crosshair_translucent 1; cl_crosshair_color 255 255 255"
+			"3" "Голубой"         "adjust_crosshair 2"
+			"4" "Желтый"         "adjust_crosshair 8"
+			"5" "Зеленый"         "adjust_crosshair 5"
+			"6" "Черный"         "cl_crosshair_translucent 0; cl_crosshair_color 0"
+			"7" "Сбросить"         "cl_crosshair_translucent 1; cl_crosshair_color 0"
+		}
+		"3" "Динамичность"
+		{
+			"1" "Откл."		"cl_dynamiccrosshair 0"
+			"2" "Вкл."		"cl_dynamiccrosshair 1"
+		}
+		"4" "Прозрачность"
+		{
+			"1" "Откл."		"cl_crosshair_translucent 0"
+			"2" "Вкл."		"cl_crosshair_translucent 1"
+		}
+		"5" "Рука оружия"
+		{
+			"1" "Левая"		"cl_righthand 0"
+			"2" "Правая"	"cl_righthand 1"
+		}
+	}
+	"2" "Интерфейс"
+	{
+		"1" "Громкость звука"      
+		{
+			"0" "Выключить"     "volume 0"
+			"1" "(.________)"  "volume 0.1"
+			"2" "(_._______)"  "volume 0.2"
+			"3" "(__.______)"  "volume 0.3"
+			"4" "(___._____)"  "volume 0.4"
+			"5" "(____.____)"  "volume 0.5"
+			"6" "(_____.___)"  "volume 0.6"
+			"7" "(______.__)"  "volume 0.7"
+			"8" "(_______._)"  "volume 0.8"
+			"9" "(________.)"  "volume 0.9"     
+		}
+		"2" "График соед."
+		{
+			"1" "Стиль 1"	"net_graph 1"
+			"2" "Стиль 2"	"net_graph 2"
+			"3" "Стиль 3"	"net_graph 3"
+			"4" "Откл."		"net_graph 0"
+		}
+		"3" "Радар"
+		{
+			"1" "Включить" "drawradar"
+			"2" "Выключить" "hideradar"
+			"3" "Тип радара"
+			{
+				"1" "Прозрачный" "cl_radartype 0"
+				"2" "Не прозрачный" "cl_radartype 1"
+			}
+			
+		}
+		"4" "Погода"
+		{
+			"1" "Откл."		"cl_weather 0"
+			"2" "Вкл."		"cl_weather 1"
+		}
+	}
+}
+"3" "Настройка соед."
+{
+		"1" "Скорость Интерн."
+		{
+		"1" "Модем 56 кбит/с"	"rate 5000"
+		"2" "DSL"				"rate 7500"
+		"3" "Cable/T1"			"rate 9999"
+		"4" "Макс. (LAN)"		"rate 25000"
+		}
+		"2" "Частота обновл."
+		{
+		"3" "Входящая"
+			{
+			"1" "20 (Стандарт)"	"cl_updaterate 20"
+			"2" "40"			"cl_updaterate 40"
+			"3" "60"			"cl_updaterate 60"
+			"4" "80"			"cl_updaterate 80"
+			"5" "90 (LAN)"		"cl_updaterate 90"
+			}
+		"4" "Исходящая"
+			{
+			"1" "30 (Стандарт)"	"cl_updaterate 30"
+			"2" "50"			"cl_updaterate 50"
+			"3" "70"			"cl_updaterate 70"
+			"4" "90"			"cl_updaterate 90"
+			"5" "101 (LAN)"		"cl_updaterate 101"
+			}
+		}
+		"5" "Показать FPS"
+		{	
+			"1" "Включить" "cl_showfps 1"
+			"2" "Выключить" "cl_showfps 0"
+		}
+		"6" "График соед."
+		{
+			"1" "Net Graph 1" "net_graph 1"
+			"2" "Net Graph 2" "net_graph 2"
+			"3" "Net Graph 3" "net_graph 3"
+			"6" "Net Graph - слева" "net_graphpos 3"
+			"7" "Net Graph - справа" "net_graphpos 1"
+			"8" "Net Graph - по центру" "net_graphpos 2"
+			"9" "Net Graph - выкл" "net_graph 0"
+		}
+}		
+
+"4" "Настройки сервера"
+{
+	"1"  "Меню сервера"	"amxmodmenu"
+	"1" "Быстрый рестарт"	"sv_restartround 1"
+	"2" "Баланс. команд"
+		{
+		"1" "Откл."		"mp_autoteambalance 0"
+		"2" "Вкл."		"mp_autoteambalance 1"
+		}
+	"3" "Полный рестарт"	"restart"
+}
+
+"5" "БОТЫ"
+{
+	"1" "Команда ботов"
+			{
+				"1" "Террористы"		                "bot_join_team t"
+				"2" "Контр-Террористы"	            "bot_join_team ct"
+				"3" "Поровну"			                "bot_join_team any"
+			}
+	"2" "Добавить ботов"
+	{
+		"1" "Любого"		        "bot_add"
+		"2" "Террориста"		"bot_add_t"
+		"3" "Контр-Террориста"	"bot_add_ct"
+		"4" "Добавить пачкой"
+		{
+			"1" "10 ботов"		"bot_quota 10"
+			"2" "12 ботов"		"bot_quota 12"
+			"3" "14 ботов"		"bot_quota 14"
+			"4" "16 ботов"		"bot_quota 16"
+			"5" "18 ботов"		"bot_quota 18"
+			"6" "20 ботов"		"bot_quota 20"
+    	}
+    }
+	
+	"2" "Убить/Убрать"
+		{
+		"1" "Убить всех"			"bot_kill"
+        "2" "Убрать всех"			"bot_kick"
+     	}
+	"3" "Настройка ботов"
+	{
+	"1" "Сложность"
+		{
+               "1" "Легко"		"bot_difficulty 0"
+               "2" "Нормально"		"bot_difficulty 1"
+               "3" "Тяжело"		"bot_difficulty 2"
+               "4" "Эксперт"		"bot_difficulty 3"
+		}
+	"2" "Оружие"
+		{
+			"1" "Ножи только"		"bot_knives only"
+			"2" "Пистолеты только"		"bot_pistols_only"
+			"3" "Снайперки только"		"bot_snipers_only"
+			"4" "Любое оружие"		"bot_all_weapons"
+		}
+
+	}
+}
+
+"7" "Запись демо"
+	{
+		"1" "Запись" "record Demo"
+		"2" "Остановить" "stop"
+		"3" "Смотреть демо" "viewdemo Demo"
+		"4" "Ручная запись"	"messagemode record"
+	}
+
+"11" "Выход" "slot10"

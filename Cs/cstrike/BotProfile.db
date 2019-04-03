@@ -1,0 +1,841 @@
+//----------------------------------------------------------------------------
+// BotProfile.db
+// Author: Michael S. Booth, Turtle Rock Studios (www.turtlerockstudios.com)
+//
+// This database defines bot "personalities". 
+// Feel free to edit it and define your own bots.
+//
+//----------------------------------------------------------------------------
+//
+// All profiles begin with this data and overwrite their own
+//
+Default
+	Skill = 50
+	Aggression = 50
+	ReactionTime = 0.3
+	AttackDelay = 0
+	Teamwork = 75
+	WeaponPreference = none
+	Cost = 0
+	Difficulty = NORMAL
+	VoicePitch = 100
+	Skin = 0
+End
+
+//----------------------------------------------------------------------------
+//
+// These templates inherit from Default and override with their values
+// The name of the template defines a type that is used by individual bot profiles
+//
+// weapon preference templates
+Template Rifle
+	WeaponPreference = m4a1
+	WeaponPreference = ak47
+	WeaponPreference = famas
+	WeaponPreference = galil
+	WeaponPreference = mp5
+End
+
+Template RifleT
+	WeaponPreference = ak47
+	WeaponPreference = m4a1
+	WeaponPreference = galil
+	WeaponPreference = famas
+	WeaponPreference = mp5
+End
+
+Template Punch
+	WeaponPreference = aug
+	WeaponPreference = sg552
+	WeaponPreference = famas
+	WeaponPreference = galil
+	WeaponPreference = mp5
+End
+
+Template PunchT
+	WeaponPreference = aug
+	WeaponPreference = sg552
+	WeaponPreference = famas
+	WeaponPreference = galil
+	WeaponPreference = mp5
+End
+
+Template Sniper
+	WeaponPreference = awp
+	WeaponPreference = sg550
+	WeaponPreference = g3sg1
+	WeaponPreference = scout
+	WeaponPreference = famas
+	WeaponPreference = galil
+	WeaponPreference = mp5
+End
+
+Template Power
+	WeaponPreference = m249
+	WeaponPreference = xm1014
+	WeaponPreference = m3
+	WeaponPreference = famas
+	WeaponPreference = galil
+	WeaponPreference = mp5
+End
+
+Template Shotgun
+	WeaponPreference = xm1014
+	WeaponPreference = m3
+	WeaponPreference = famas
+	WeaponPreference = galil
+	WeaponPreference = mp5
+End
+
+Template Shield
+	WeaponPreference = shield
+	WeaponPreference = m4a1			// in case shield is disallowed
+	WeaponPreference = ak47
+	WeaponPreference = famas
+	WeaponPreference = galil
+	WeaponPreference = mp5
+End
+
+Template Spray
+	WeaponPreference = p90
+	WeaponPreference = tmp
+	WeaponPreference = mac10
+	WeaponPreference = mp5
+End
+
+// skill templates
+Template Elite
+	Skill = 100
+	Aggression = 100
+	ReactionTime = 0.13
+	Teamwork = 95
+	Cost = 4
+	Difficulty = EXPERT
+	VoicePitch = 85
+End
+
+Template Expert
+	Skill = 100
+	Aggression = 100
+	ReactionTime = 0.13
+	Teamwork = 95
+	Cost = 4
+	Difficulty = EXPERT
+	VoicePitch = 88
+End
+
+Template VeryHard
+	Skill = 80
+	Aggression = 80
+	ReactionTime = 0.20
+	Cost = 3
+	Difficulty = HARD
+	VoicePitch = 92
+End
+
+Template Hard
+	Skill = 75
+	Aggression = 75
+	ReactionTime = 0.20
+	Cost = 3
+	Difficulty = HARD
+	VoicePitch = 94
+End
+
+Template Tough
+	Skill = 60
+	Aggression = 60
+	ReactionTime = 0.25
+	AttackDelay = 0.35
+	Cost = 2
+	Difficulty = NORMAL+HARD
+	VoicePitch = 96
+End
+
+Template Normal
+	Skill = 50
+	Aggression = 50
+	ReactionTime = 0.25
+	AttackDelay = 0.7
+	Cost = 2
+	Difficulty = NORMAL
+End
+
+Template Fair
+	Skill = 25
+	Aggression = 30
+	ReactionTime = 0.4
+	AttackDelay = 1.0
+	Cost = 1
+	Difficulty = EASY+NORMAL
+	VoicePitch = 105
+End
+
+Template Easy
+	Skill = 0
+	Aggression = 20
+	ReactionTime = 0.5
+	AttackDelay = 1.5
+	Cost = 1
+	Difficulty = EASY
+	VoicePitch = 110
+End
+
+//----------------------------------------------------------------------------
+//
+// These are the individual bot profiles, which inherit first from 
+// Default and then the specified Template(s), in order
+//
+//----------------------------------------
+//----------------------------------------
+//----------------------------------------
+//----------------------------------------
+//----------------------------------------
+//----------------------------------------
+//----------------------------------------
+Elite+Rifle "[KZ] Pu4a4u"
+	VoicePitch = 76
+	Skin = 5
+End
+
+Elite+RifleT "Huqp Huqp u ero KoMaHDa"
+	VoicePitch = 94
+	Skin = 5
+End
+
+Elite+Sniper "Pulia_na_vilet"
+	VoicePitch = 93
+End
+
+Elite+RifleT "***koLobok***"
+	VoicePitch = 91
+	Skin = 5
+End
+
+Elite+PunchT "[90]YmuJIu3amop"
+	VoicePitch = 79
+	Skin = 5
+End
+
+Elite+Rifle "Jl0XMATuK VPS"
+	VoicePitch = 88
+	Skin = 5
+End
+
+Elite+Sniper "OXOTHuK"
+	VoicePitch = 79
+End
+
+Elite+Rifle "[KZ] World"
+	VoicePitch = 87
+End
+
+Elite+Rifle "MexaHuK :3"
+	VoicePitch = 89
+End
+
+Elite+Rifle "Mi11ioner"
+	VoicePitch = 87
+End
+
+Elite+Punch "staR[4 you]*"
+	VoicePitch = 83
+End
+
+Elite+Sniper ".::VoltagE=UK=::."
+	VoicePitch = 89
+End
+
+Elite+Rifle "Beast | GaD[G]eT"
+	VoicePitch = 86
+End
+
+Elite+Rifle "BarceloNa____"
+	VoicePitch = 91
+End
+
+Elite+Rifle "Pro100 Zard"
+	VoicePitch = 92
+End
+
+Elite+Rifle "Steel"
+	VoicePitch = 79
+End
+
+Elite+Rifle "MucTep CTaJloHe"
+	VoicePitch = 88
+End
+
+Elite+RifleT "Arnold"
+	VoicePitch = 85
+End
+
+Elite+Rifle "Brett"
+	VoicePitch = 100
+End
+
+Elite+Punch "Kurt"
+	VoicePitch = 95
+End
+
+Elite+Sniper "Kyle"
+	VoicePitch = 107
+End
+
+Elite+Rifle "Moe"
+	VoicePitch = 87
+End
+
+Elite+Rifle "Quade"
+	VoicePitch = 91
+End
+
+Elite+Rifle "Quintin"
+	VoicePitch = 101
+End
+
+Elite+Rifle "Ringo"
+	VoicePitch = 112
+End
+
+Elite+Punch "Rip"
+	VoicePitch = 99
+End
+
+Elite+PunchT "Zach"
+	VoicePitch = 100
+End
+
+Elite+RifleT "Cory"
+	VoicePitch = 110
+End
+
+Elite+Sniper "Quinn"
+	VoicePitch = 93
+End
+
+Elite+Rifle "Seth"
+	VoicePitch = 100
+End
+
+Elite+RifleT "Vinny"
+	VoicePitch = 86
+	Skin = 4
+End
+
+Hard+Rifle "Chad"
+	VoicePitch = 95
+	Skin = 1
+End
+
+Hard+RifleT "Chet"
+	VoicePitch = 90
+	Skin = 2
+End
+
+Hard+Spray "Gabe"
+	VoicePitch = 102
+	Skin = 4
+End
+
+Hard+Shotgun "Hank"
+	VoicePitch = 98
+	Skin = 1
+End
+
+Hard+RifleT "Ivan"
+	VoicePitch = 96
+	Skin = 2
+End
+
+Hard+Punch "Jim"
+	VoicePitch = 103
+	Skin = 4
+End
+
+Hard+PunchT "Joe"
+	VoicePitch = 105
+	Skin = 1
+End
+
+Hard+Rifle "John"
+	VoicePitch = 97
+	Skin = 2
+End
+
+Hard+Rifle "Tony"
+	VoicePitch = 84
+	Skin = 4
+End
+
+Hard+PunchT "Tyler"
+	VoicePitch = 90
+	Skin = 1
+End
+
+Hard+Rifle "Victor"
+	VoicePitch = 98
+	Skin = 2
+End
+
+Hard+Sniper "Vladimir"
+	VoicePitch = 110
+	Skin = 3
+End
+
+Hard+Spray "Zane"
+	VoicePitch = 103
+	Skin = 4
+End
+
+Hard+Rifle "Zim"
+	VoicePitch = 110
+	Skin = 2
+End
+
+Tough+Sniper "Adrian"
+	VoicePitch = 120
+	Skin = 3
+End
+
+Tough+Rifle "Brad"
+	VoicePitch = 100
+	Skin = 1
+End
+
+Tough+Rifle "Connor"
+	VoicePitch = 104
+	Skin = 2
+End
+
+Tough+RifleT "Dave"
+	VoicePitch = 98
+	Skin = 4
+End
+
+Tough "Dan"
+	VoicePitch = 100
+	Skin = 1
+End
+
+Tough+Rifle "Derek"
+	VoicePitch = 102
+	Skin = 2
+End
+
+Tough+Shotgun "Don"
+	VoicePitch = 95
+	Skin = 4
+End
+
+Tough+Rifle "Eric"
+	VoicePitch = 95
+	Skin = 1
+End
+
+Tough+RifleT "Erik"
+	VoicePitch = 110
+	Skin = 2
+End
+
+Tough+Rifle "Finn"
+	VoicePitch = 112
+	Skin = 4
+End
+
+Tough "Jeff"
+	VoicePitch = 90
+	Skin = 1
+End
+
+Tough+Rifle "Kevin"
+	VoicePitch = 115
+	Skin = 2
+End
+
+Tough+RifleT "Reed"
+	VoicePitch = 107
+	Skin = 4
+End
+
+Tough+Rifle "Rick"
+	VoicePitch = 102
+	Skin = 2
+End
+
+Tough "Ted"
+	VoicePitch = 98
+	Skin = 1
+End
+
+Tough+Rifle "Troy"
+	VoicePitch = 100
+	Skin = 2
+End
+
+Tough+RifleT "Wade"
+	VoicePitch = 95
+	Skin = 4
+End
+
+Tough+Rifle "Wayne"
+	VoicePitch = 86
+	Skin = 1
+End
+
+Tough+RifleT "Xander"
+	VoicePitch = 100
+	Skin = 2
+End
+
+Tough+Rifle "Xavier"
+	VoicePitch = 95
+	Skin = 4
+End
+
+Normal+Rifle "Adam"
+	VoicePitch = 105
+	Skin = 1
+End
+
+Normal+PunchT "Andy"
+	VoicePitch = 90
+	Skin = 2
+End
+
+Normal "Chris"
+	VoicePitch = 100
+	Skin = 3
+End
+
+Normal "Colin"
+	VoicePitch = 107
+	Skin = 4
+End
+
+Normal+Shield "Dennis"
+	VoicePitch = 104
+	Skin = 1
+End
+
+Normal "Doug"
+	VoicePitch = 110
+	Skin = 2
+End
+
+Normal "Gary"
+	VoicePitch = 95
+	Skin = 3
+End
+
+Normal "Grant"
+	VoicePitch = 112
+	Skin = 4
+End
+
+Normal "Greg"
+	VoicePitch = 111
+	Skin = 1
+End
+
+Normal+Sniper "Ian"
+	VoicePitch = 115
+	Skin = 3
+End
+
+Normal "Jerry"
+	VoicePitch = 112
+	Skin = 4
+End
+
+Normal "Jon"
+	VoicePitch = 96
+	Skin = 1
+End
+
+Normal "Keith"
+	VoicePitch = 98
+	Skin = 2
+End
+
+Normal "Mark"
+	VoicePitch = 110
+	Skin = 4
+End
+
+Normal "Matt"
+	VoicePitch = 95
+	Skin = 1
+End
+
+Normal+RifleT "Mike"
+	VoicePitch = 100
+	Skin = 2
+End
+
+Normal "Nate"
+	VoicePitch = 99
+	Skin = 4
+End
+
+Normal "Paul"
+	VoicePitch = 98
+	Skin = 3
+End
+
+Normal "Scott"
+	VoicePitch = 105
+	Skin = 1
+End
+
+Normal "Steve"
+	VoicePitch = 115
+	Skin = 2
+End
+
+Normal "Tom"
+	VoicePitch = 110
+	Skin = 3
+End
+
+Normal "Yahn"
+	VoicePitch = 92
+	Skin = 4
+End
+
+Fair "Alfred"
+	VoicePitch = 110
+End
+
+Fair "Bill"
+	VoicePitch = 100
+End
+
+Fair "Brandon"
+	VoicePitch = 99
+End
+
+Fair+Spray "Calvin"
+	VoicePitch = 120
+End
+
+Fair "Dean"
+	VoicePitch = 111
+End
+
+Fair "Dustin"
+	VoicePitch = 98
+End
+
+Fair "Ethan"
+	VoicePitch = 112
+End
+
+Fair "Harold"
+	VoicePitch = 90
+End
+
+Fair "Henry"
+	VoicePitch = 120
+End
+
+Fair "Irving"
+	VoicePitch = 118
+End
+
+Fair "Jason"
+	VoicePitch = 116
+End
+
+Fair "Josh"
+	VoicePitch = 114
+End
+
+Fair "Martin"
+	VoicePitch = 110
+End
+
+Fair "Nick"
+	VoicePitch = 98
+End
+
+Fair "Norm"
+	VoicePitch = 92
+End
+
+Fair "Orin"
+	VoicePitch = 113
+End
+
+Fair "Pat"
+	VoicePitch = 114
+End
+
+Fair "Perry"
+	VoicePitch = 115
+End
+
+Fair "Ron"
+	VoicePitch = 100
+End
+
+Fair "Shawn"
+	VoicePitch = 102
+End
+
+Fair "Tim"
+	VoicePitch = 98
+End
+
+Fair "Will"
+	VoicePitch = 96
+End
+
+Fair "Wyatt"
+	VoicePitch = 94
+End
+
+Easy "Albert"
+	VoicePitch = 100
+End
+
+Easy "Allen"
+	VoicePitch = 110
+End
+
+Easy "Bert"
+	VoicePitch = 120
+End
+
+Easy "Bob"
+	VoicePitch = 99
+End
+
+Easy "Cecil"
+	VoicePitch = 120
+End
+
+Easy "Clarence"
+	VoicePitch = 125
+End
+
+Easy "Elliot"
+	VoicePitch = 110
+End
+
+Easy "Elmer"
+	VoicePitch = 100
+End
+
+Easy "Ernie"
+	VoicePitch = 112
+End
+
+Easy "Eugene"
+	VoicePitch = 121
+End
+
+Easy "Fergus"
+	VoicePitch = 99
+End
+
+Easy "Ferris"
+	VoicePitch = 119
+End
+
+Easy "Frank"
+	VoicePitch = 118
+End
+
+Easy "Frasier"
+	VoicePitch = 117
+End
+
+Easy "Fred"
+	VoicePitch = 116
+End
+
+Easy "George"
+	VoicePitch = 115
+End
+
+Easy "Graham"
+	VoicePitch = 114
+End
+
+Easy "Harvey"
+	VoicePitch = 112
+End
+
+Easy "Irwin"
+	VoicePitch = 111
+End
+
+Easy "Lester"
+	VoicePitch = 110
+End
+
+Easy "Marvin"
+	VoicePitch = 109
+End
+
+Easy "Neil"
+	VoicePitch = 108
+End
+
+Easy "Niles"
+	VoicePitch = 122
+End
+
+Easy "Oliver"
+	VoicePitch = 120
+End
+
+Easy "Opie"
+	VoicePitch = 125
+End
+
+Easy "Toby"
+	VoicePitch = 92
+End
+
+Easy "Ulric"
+	VoicePitch = 100
+End
+
+Easy "Ulysses"
+	VoicePitch = 102
+End
+
+Easy "Uri"
+	VoicePitch = 104
+End
+
+Easy "Waldo"
+	VoicePitch = 108
+End
+
+Easy "Wally"
+	VoicePitch = 95
+End
+
+Easy "Walt"
+	VoicePitch = 100
+End
+
+Easy "Wesley"
+	VoicePitch = 120
+End
+
+Easy "Yanni"
+	VoicePitch = 112
+End
+
+Easy "Yogi"
+	VoicePitch = 99
+End
+
+Easy "Yuri"
+	VoicePitch = 110
+End
+

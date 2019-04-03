@@ -1,0 +1,2 @@
+mp_autoteambalance 0 - автобаланс быкл. 
+mp_autoteambalance 1 - автобаланс вкл

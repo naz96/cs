@@ -1,0 +1,10 @@
+"MasterServers"
+{
+	"hl1"
+	{
+		"0"
+		{
+			"addr"		"ms.topms.ru:27010"
+		}
+	}
+}
